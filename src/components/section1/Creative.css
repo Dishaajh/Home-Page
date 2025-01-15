@@ -1,0 +1,79 @@
+.main-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-section {
+  width: 100%;
+  height: 50%;
+  background-color: rgb(242, 246, 228);
+  /* rgb(242, 246, 228); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.bottom-section {
+  width: 100%;
+  height: 50%;
+  background: url("/pexels-pixabay-40142.jpg") no-repeat center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.overlay-content {
+  text-align: center;
+  max-width: 600px;
+  width: 90%;
+}
+
+.text-above {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.text-below {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.text-list {
+  display: flex;
+  /* Use Flexbox for horizontal alignment */
+  justify-content: space-between;
+  /* Space out items evenly */
+  align-items: center;
+  /* Align items vertically */
+  gap: 20px;
+  /* Add space between items */
+  margin-top: 20px;
+}
+
+.text-item {
+  text-align: center;
+  /* Center-align each item's text */
+  flex: 1;
+  /* Allow items to adjust their size equally */
+}
+
+.text-item h2 {
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 5px;
+}
+
+.text-item p {
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+}

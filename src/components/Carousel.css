@@ -1,0 +1,77 @@
+.carousel-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  /* Control the maximum width */
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  /* Stack the carousel and indicators vertically */
+  align-items: center;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  /* Ensure it takes full width */
+}
+
+.carousel-image {
+  width: 100%;
+  /* Set the image width to fill the container */
+  height: auto;
+  border-radius: 10px;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.left {
+  left: 10px;
+  /* Adjust left arrow */
+}
+
+.right {
+  right: 10px;
+  /* Adjust right arrow */
+}
+
+.indicators {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  width: 100%;
+  /* Ensure it takes the full width */
+  padding: 0 10px;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: rgb(134, 131, 131);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.indicator.active {
+  background-color: #007bff;
+}
+
+.indicator:hover {
+  background-color: #0056b3;
+}

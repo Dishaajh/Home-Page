@@ -1,0 +1,47 @@
+.environment-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.text-section {
+  max-width: 50%;
+}
+
+.text-section h1 {
+  font-size: 2.5rem;
+  color: #333;
+  line-height: 1.4;
+}
+
+.text-section .highlight {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.know-more-button {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.know-more-button:hover {
+  background-color: #45a049;
+}
+
+.image-section {
+  max-width: 40%;
+}
+
+.environment-image {
+  max-width: 100%;
+  height: auto;
+}
