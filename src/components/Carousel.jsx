@@ -3,9 +3,9 @@ import "./Carousel.css";
 
 const Carousel = () => {
   const images = [
-    "./pexels-expect-best-79873-323705.jpg", // Adjust paths for public folder
-    "./pexels-pixabay-534219.jpg",
-    "./pexels-veeterzy-123027.jpg",
+    "/pexels-expect-best-79873-323705.jpg", // Adjust paths for public folder
+    "/pexels-pixabay-534219.jpg",
+    "/pexels-veeterzy-123027.jpg",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

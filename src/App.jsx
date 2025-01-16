@@ -9,9 +9,9 @@ import Environment from './components/section4/Environment';
 import Properties from './components/section5/Properties';
 const App = () => {
   const images = [
-    "/images/real-estate/building1.jpg",
-    "/images/real-estate/building2.jpg",
-    "/images/real-estate/building3.jpg",
+    "/public/pexels-pixabay-40142.jpg",
+    "/public/pexels-pixabay-40142.jpg",
+    "/public/pexels-pixabay-40142.jpg",
   ];
   return (
     <div>
