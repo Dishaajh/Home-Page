@@ -20,15 +20,15 @@ const CityWiseProjects = () => {
     Bangalore: [
       {
         name: "Provident Kenworth",
-        image: "/citywise1.jpg",
+        image: "/Home-Page/citywise1.jpg",
       },
       {
         name: "Provident Equinox",
-        image: "/citywise2.jpg",
+        image: "/Home-Page/citywise2.jpg",
       },
       {
         name: "Provident Aroha",
-        image: "/citywise3.jpg",
+        image: "/Home-Page/citywise3.jpg",
       },
     ],
   };
