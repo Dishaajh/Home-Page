@@ -8,19 +8,19 @@ const Reviews = () => {
       name: "Niharika Krupani",
       description: "Resident at Provident Kenworth",
       videoLink: "https://example.com/video1",
-      image: "/public/People1.jpg",
+      image: "./public/People1.jpg",
     },
     {
       name: "Mr. & Mrs. Kailash",
       description: "Resident at Provident Sunworth",
       videoLink: "https://example.com/video2",
-      image: "/public/People2.jpg",
+      image: "./public/People2.jpg",
     },
     {
       name: "Sanjay Srinivas",
       description: "Resident at Provident Park Square",
       videoLink: "https://example.com/video3",
-      image: "/public/People3.jpg",
+      image: "./public/People3.jpg",
     },
   ];
 
