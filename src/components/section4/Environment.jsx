@@ -13,7 +13,7 @@ const EnvironmentComponent = () => {
       </div>
       <div className="image-section">
         <img
-          src="/Greenery.png"
+          src="/Home-Page/Greenery.png"
           alt="Environment illustration"
           className="environment-image"
         />
