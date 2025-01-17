@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
+  padding: 10rem;
   background-color: #fff;
 }
 
@@ -25,9 +25,9 @@
   margin-top: 1.5rem;
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
-  color: #fff;
-  background-color: #4caf50;
-  border: none;
+  color: #333;
+  background-color: #fcfffc;
+  border: 1px solid #333;
   border-radius: 25px;
   cursor: pointer;
   transition: background-color 0.3s ease;

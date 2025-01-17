@@ -4,7 +4,7 @@ import "./Properties.css";
 const Properties = () => {
   const properties = [
     {
-      image: "/Home-Page/citywise1.jpg", 
+      image: "/Home-Page/citywise1.jpg",
       title: "Palm Vista, Mumbai",
       description: "Master community within 16 acres of tropical paradise.",
     },
@@ -27,8 +27,14 @@ const Properties = () => {
       <div className="property-list">
         {properties.map((property, index) => (
           <div key={index} className="property-card">
-            <img src={property.image} alt={property.title} />
+            <div className="image-container">
+              <img src={property.image} alt={property.title} />
+              <div className="overlay">
+                <button>Learn More</button>
+              </div>
+            </div>
             <h3>{property.title}</h3>
+            <br />
             <p>{property.description}</p>
           </div>
         ))}

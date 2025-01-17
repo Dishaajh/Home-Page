@@ -31,12 +31,13 @@ const CityWiseProjects = () => {
         image: "/Home-Page/citywise3.jpg",
       },
     ],
+    // Add other cities here similarly
   };
 
   return (
     <div className="city-wise-projects">
       <div className="sidebar">
-        <h2>City wise Projects</h2>
+        <h2>City-wise Projects</h2>
         <ul>
           {cities.map((city) => (
             <li
@@ -55,8 +56,8 @@ const CityWiseProjects = () => {
             <img src={project.image} alt={project.name} />
             <div className="project-info">
               <h3>{project.name}</h3>
-              {project.details && <p>{project.details}</p>}
             </div>
+           
           </div>
         ))}
       </div>

@@ -3,7 +3,7 @@ import "./Carousel.css";
 
 const Carousel = () => {
   const images = [
-    "/Home-Page/pexels-expect-best-79873-323705.jpg", // Adjust paths for public folder
+    "/Home-Page/pexels-expect-best-79873-323705.jpg",
     "/Home-Page/pexels-pixabay-534219.jpg",
     "/Home-Page/pexels-veeterzy-123027.jpg",
   ];
@@ -30,7 +30,16 @@ const Carousel = () => {
         <button className="arrow left" onClick={goToPrevious}>
           &#8592;
         </button>
-        <img src={images[currentIndex]} alt="carousel" className="carousel-image" />
+        <div className="carousel-image-container">
+          <img
+            src={images[currentIndex]}
+            alt="carousel"
+            className="carousel-image"
+          />
+          <div className="text-overlay">
+            <h2>Uniquely crafted homes that are a cut above the rest</h2>
+          </div>
+        </div>
         <button className="arrow right" onClick={goToNext}>
           &#8594;
         </button>

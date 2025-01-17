@@ -1,4 +1,3 @@
-// React Component: CustomerTestimonials.js
 import React from "react";
 import "./Reviews.css";
 
@@ -7,49 +6,67 @@ const Reviews = () => {
     {
       name: "Niharika Krupani",
       description: "Resident at Provident Kenworth",
-      videoLink: "https://example.com/video1",
+      // videoLink: "https://example.com/video1",
       image: "/Home-Page/People1.jpg",
     },
     {
       name: "Mr. & Mrs. Kailash",
       description: "Resident at Provident Sunworth",
-      videoLink: "https://example.com/video2",
+      // videoLink: "https://example.com/video2",
       image: "/Home-Page/People2.jpg",
     },
     {
       name: "Sanjay Srinivas",
       description: "Resident at Provident Park Square",
-      videoLink: "https://example.com/video3",
+      // videoLink: "https://example.com/video3",
       image: "/Home-Page/People3.jpg",
     },
   ];
 
   return (
-    <div className="customer-testimonials">
-      <div className="heading">
-        <h2>What customers have to say about us</h2>
-      </div>
-      <div className="testimonials-container">
-        <button className="arrow left">&#8249;</button>
-        <div className="testimonials">
-          {testimonials.map((testimonial, index) => (
-            <div className="testimonial-card" key={index}>
-              <a href={testimonial.videoLink} target="_blank" rel="noopener noreferrer">
-                <div className="image-container">
-                  <img src={testimonial.image} alt={testimonial.name} />
-                  <div className="play-button">&#9658;</div>
-                </div>
-                <div className="testimonial-info">
-                  <h3>{testimonial.name}</h3>
-                  <p>{testimonial.description}</p>
-                </div>
-              </a>
-            </div>
-          ))}
-        </div>
-        <button className="arrow right">&#8250;</button>
+<div className="customer-testimonials">
+  <div className="text-section">
+    <h2>
+      What customers have<br />
+      <span>to say about us</span>
+    </h2>
+  </div>
+  <div className="image-grid">
+    <div className="main-image">
+      <a href="https://example.com/video1" target="_blank" rel="noopener noreferrer">
+        <img src="/Home-Page/People1.jpg" alt="Niharika Krupani" />
+        {/* <div className="play-button">&#9658;</div> */}
+      </a>
+      <div className="image-info">
+        <h3>Niharika Krupani</h3>
+        <p>Resident at Provident Kenworth</p>
       </div>
     </div>
+    <div className="side-images">
+      <div className="side-image">
+        <a href="https://example.com/video2" target="_blank" rel="noopener noreferrer">
+          <img src="/Home-Page/People2.jpg" alt="Mr. & Mrs. Kailash" />
+          {/* <div className="play-button">&#9658;</div> */}
+        </a>
+        <div className="image-info">
+          <h3>Mr. & Mrs. Kailash</h3>
+          <p>Resident at Provident Sunworth</p>
+        </div>
+      </div>
+      <div className="side-image">
+        <a href="https://example.com/video3" target="_blank" rel="noopener noreferrer">
+          <img src="/Home-Page/People3.jpg" alt="Sanjay Srinivas" />
+          {/* <div className="play-button">&#9658;</div> */}
+        </a>
+        <div className="image-info">
+          <h3>Sanjay Srinivas</h3>
+          <p>Resident at Provident Park Square</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
   );
 };
 
